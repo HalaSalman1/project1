@@ -1,0 +1,997 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: calc(100% - 120px);
+
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.row .logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+body {
+    font-family: Be Vietnam Pro;
+    height: 7127px;
+    background: var(--white-97, #F7F7F8);
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid var(--white-95, #F1F1F3);
+    z-index: 9;
+    padding: 16px 20px;
+    background: var(--White-97, #F7F7F8);
+
+
+}
+
+header .logo img {
+    width: 44px;
+    height: 44px;
+    padding: 5.704px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 26px;
+
+}
+
+header .logo a {
+    color: var(--grey-15, #262626);
+    font-size: 14px;
+}
+
+.home {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: var(--white-95, #F1F1F3);
+
+}
+
+header .auth {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    gap: 30px;
+}
+
+header .auth .signup {
+    color: var(--grey-15, #262626);
+
+}
+
+header .auth .login {
+    display: flex;
+    padding: 12px 24px;
+    align-items: center;
+    color: var(--absolute-white, #FFF);
+    gap: 8px;
+    border-radius: 6px;
+    background: var(--orange-50, #FF9500);
+}
+
+main .Potential .row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+main .Unlock {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 100px 0 0 0;
+
+
+}
+
+main .Unlock1 {
+    position: absolute;
+    left: -24px;
+    top: -30px;
+    width: 39px;
+    height: 43px;
+    padding: 100px 0;
+}
+
+main .Unlock2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 8px;
+
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    padding: 12px 24px 12px 12px;
+}
+
+main .Unlock2 img {
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    background: var(--Orange-95, #FFF4E5);
+}
+
+
+
+.Unlock2 h1:before {
+    color: #FF9500;
+    content: "Unlock";
+}
+
+main h2 {
+
+    padding: 16px 0 8px 0;
+}
+
+main .Explore {
+    padding: 50px 0 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+
+main .Explore .Explore1 {
+    color: var(--Absolute-White, #FFF);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    padding: 14px 20px;
+    border-radius: 6px;
+    background: var(--Orange-50, #FF9500);
+}
+
+main .Explore .Explore2 {
+    color: var(--Grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--Absolute-White, #FFF);
+}
+
+main .Social .row {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+
+main .Social .link {
+    padding: 24px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    width: 100%;
+}
+
+main .link ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+main .link ul li {
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+    width: 9%;
+}
+
+main .link img {
+    width: 64.167px;
+    height: 28px;
+}
+
+main .vedio .row {
+    padding-bottom: 60px;
+}
+
+main .vedio .video1 {
+    height: 649px;
+    border-radius: 10px;
+    border: 16px solid var(--White-97, #F7F7F8);
+    width: 100%;
+}
+
+main .vedio img {
+    width: 100%;
+}
+
+
+main .benefits .row {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+
+main .benefits .benefit {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-self: stretch;
+    gap: 250px;
+    padding-bottom: 60px;
+}
+
+main .benefit .benefit1 {
+    width: 60%;
+}
+
+main .benefit1 h1 {
+    font-size: 38px;
+    color: var(--Grey-15, #262626);
+    padding-bottom: 4px;
+}
+
+main .benefit .benefit1 p {
+    font-size: 16px;
+    color: var(--Grey-35, #59595A);
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+main .benefit .benefit2 {
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    font-size: 14px;
+    color: var(--Grey-15, #262626);
+    font-weight: 500;
+
+}
+
+main .benefits .benefitsection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
+
+main .benefitsection .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+
+main .benefitsection .section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+main .benefitsection .section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 28%;
+    border-radius: 10px;
+    background: var(--Absolute-White, #FFF);
+    padding: 40px;
+    width: 32%;
+    padding-right: 20px;
+}
+
+main .benefitsection span:first-of-type {
+    color: var(--Grey-15, #262626);
+    text-align: right;
+    font-size: 60px;
+    align-self: stretch;
+    font-style: normal;
+    font-weight: 700;
+}
+
+main .benefitsection h3 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: var(--Grey-20, #333);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+main .benefitsection p {
+    padding-bottom: 40px;
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main .benefitsection span:last-of-type {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 8px;
+
+}
+
+main .benefitsection span:last-of-type button {
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+    padding: 14px;
+}
+
+main .ourcourses .row {
+    width: 100%;
+    padding-bottom: 60px;
+
+}
+
+
+main .ourcourses .courses {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-self: stretch;
+    gap: 250px;
+    padding-bottom: 60px;
+
+}
+
+main .ourcourses .courses .courses1 {
+    width: 60%;
+
+}
+
+.courses .courses1 h1 {
+    color: var(--Grey-15, #262626);
+    font-size: 38px;
+    font-style: normal;
+    padding-bottom: 4px;
+
+}
+
+main .courses .courses1 p {
+    color: var(--Grey-35, #59595A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main .courses .courses2 {
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+}
+
+.courses .courses2 a {
+    color: var(--Grey-15, #262626);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+main .courses-info .courses-info1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    align-self: stretch;
+    padding-bottom: 20px;
+
+
+}
+
+main .courses-info .courses-info11 {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--Absolute-White, #FFF);
+    padding: 40px;
+    flex-direction: column;
+
+}
+
+main .courses-info .courses-info11 img {
+    border-radius: 8px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    height: 266px;
+    width: 100%;
+    align-self: stretch;
+
+}
+
+main .courses-info .courses-info11 .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+main .courses-info .courses-info11 .info .info1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+main .courses-info .info .info1 p {
+    padding: 8px 14px;
+    align-items: flex-start;
+    border-radius: 8px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--Absolute-White, #FFF);
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main .courses-info .info h3 {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+main .courses-info .courses-info11 .head1 {
+    color: var(--Grey-15, #262626);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    padding-bottom: 10px;
+
+}
+
+main .courses-info .courses-info11 .paragraf {
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    align-self: stretch;
+    padding-bottom: 40px;
+    flex-grow: 1;
+}
+
+main .courses-info .courses-info11 button {
+    color: var(--Grey-15, #262626);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    padding: 14px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-97, #F7F7F8);
+}
+
+
+main .ourtestimonials .row {
+    width: 100%;
+    padding-bottom: 60px;
+
+}
+
+
+main .ourtestimonials .testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-self: stretch;
+    gap: 250px;
+    padding-bottom: 60px;
+
+}
+
+main .ourtestimonials .testimonials .testimonials1 {
+    width: 60%;
+
+}
+
+main .testimonials .testimonials1 h1 {
+    color: var(--Grey-15, #262626);
+    font-size: 38px;
+    font-style: normal;
+    padding-bottom: 7px;
+
+}
+
+main .testimonials .testimonials1 p {
+    color: var(--Grey-35, #59595A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+main .testimonials .testimonials2 {
+    padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+}
+
+main .testimonials .testimonials2 a {
+    color: var(--Grey-15, #262626);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+main .ourtestimonials .testimonials-info1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    align-self: stretch;
+    padding-bottom: 20px;
+}
+
+main .testimonials-info1 .testimonials-info11 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 48%;
+    border-radius: 10px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--Absolute-White, #FFF);
+}
+
+main .testimonials-info11 p {
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 16px;
+    font-style: normal;
+    padding: 40px;
+    font-weight: 400;
+    border-bottom: 1px solid #F1F1F3;
+}
+
+main .testimonials-info11 .info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 40px;
+    align-items: center;
+    align-self: stretch;
+    gap: 10px;
+    background: var(--White-99, #FCFCFD);
+    justify-content: space-between;
+}
+
+main .testimonials-info11 .info .info1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main .testimonials-info11 .info .info1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+main .testimonials-info11 .info .info1 h4 {
+    color: var(--Grey-20, #333);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+main .testimonials-info11 .info a {
+    padding: 14px 16px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-97, #F7F7F8);
+}
+
+main .testimonials-info11 .info a h3 {
+    color: var(--Grey-15, #262626);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+main .ourpricing .row {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+main .ourpricing .pricing {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-self: stretch;
+    gap: 250px;
+    padding-bottom: 60px;
+    width: 100%;
+
+}
+
+main .ourpricing .pricing .pricing1 {
+    width: 50%;
+
+}
+
+main .pricing .pricing1 h1 {
+    color: var(--Grey-15, #262626);
+    font-size: 38px;
+    font-style: normal;
+    padding-bottom: 7px;
+    font-weight: 600;
+
+}
+
+main .pricing .pricing1 p {
+    color: var(--Grey-35, #59595A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+main .pricing .pricing2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--Absolute-White, #FFF);
+}
+
+main .pricing .pricing2 a:first-of-type {
+    color: var(--Absolute-White, #FFF);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 6px;
+    background: var(--Orange-50, #FF9500);
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+main .pricing .pricing2 a:last-of-type {
+    color: var(--Grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 100px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+main .ourpricing .Pricing-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    width: 100%;
+    align-self: stretch;
+    border-radius: 12px;
+    background: var(--Absolute-White, #FFF);
+}
+
+main .ourpricing .Pricing-info1 {
+    width: 46%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 24px 24px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-radius: 12px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--White-99, #FCFCFD);
+}
+
+main .ourpricing .Pricing-info1 h4 {
+    color: var(--Grey-15, #262626);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 22px;
+    text-align: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid var(--Orange-90, #FFEACC);
+    background: var(--Orange-97, #FFF9F0);
+}
+
+main .Pricing-info1 .price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: stretch;
+    padding-bottom: 50px;
+
+}
+
+main .Pricing-info1 .price h1 {
+    color: var(--Grey-15, #262626);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+main .Pricing-info1 .price span {
+    color: var(--Grey-30, #4C4C4D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+main .Pricing-info1 .price1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+
+
+}
+
+main .Pricing-info1 .price1 .price11 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 14px 14px 0px 0px;
+    border: 1px solid var(--White-95, #F1F1F3);
+    background: var(--Absolute-White, #FFF);
+}
+
+main .Pricing-info1 .price1 .price11 h3 {
+    color: var(--Grey-15, #262626);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+
+main .Pricing-info1 .price11 .div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+main .Pricing-info1 .price1 .price11 .list1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12px;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 6px;
+    border: 1px solid var(--White-95, #F1F1F3);
+
+}
+
+main .Pricing-info1 .price1 .price11 .list1 img {
+
+    border-radius: 4px;
+    background: var(--Orange-95, #FFF4E5);
+
+}
+
+main .Pricing-info1 .price1 .price11 .list1 p {
+    color: var(--Grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+main .Pricing-info1 .price1 a {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    color: var(--Absolute-White, #FFF);
+    border-radius: 0px 0px 8px 8px;
+    background: var(--Orange-50, #FF9500);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+footer {
+    padding: 60px 20px;
+    background: var(--absolute-white, #FFF);
+}
+
+footer .row {
+    display: flex;
+
+}
+
+.footer-left-side,
+.footer-right-side {
+    width: calc((100% - 160px) / 2);
+}
+
+footer .footer-left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-wrap: wrap;
+
+}
+
+footer .logo img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 44px;
+    height: 44px;
+    padding: 5.704px;
+
+}
+
+footer .icon ul li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 14px;
+}
+
+
+.footer-left-side {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+footer .footer-right-side {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+footer .footer-item nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 10px;
+
+}
+
+footer .footer-item:last-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+}
+
+footer .footer-item:last-of-type .iconn {
+    display: flex;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    width: 15px;
+    gap: 14px;
+
+}
+
+.iconn {
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-97, #F7F7F8);
+}
+
+footer .path {
+    text-align: center;
+    padding: 60px 0 0 0;
+}
